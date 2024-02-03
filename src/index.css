@@ -11,3 +11,149 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  display: block;
+   align-items: center;
+  flex-wrap: wrap;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.title-box{
+  width: 500px;
+  padding: 5px;
+  margin-left: -40%;
+  margin-top: -150px;
+}
+.title-box img{
+  width: 300px;
+  margin-left: -5px;
+}
+.title-box p{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 50px;
+  color: black;
+  margin-right: 0px;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.form-box{
+  width: 400px; 
+  height: 350px;
+  position: absolute;
+  padding: 3px;
+  border: 10px;
+  background: #fff ;
+  margin: 0px auto;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+  
+  top: 20%;
+  left: 57%;
+}
+.below-box p{
+      border-top: 1px solid #dddfe2;
+      color: #535050;
+      font-size: 16px;
+      margin-top: 8px;
+      margin-left: 30px;
+      padding-top: 20px;
+      
+  }
+.below-box a{
+  color: black;
+text-decoration: none;
+font-weight: bold;
+}
+.below-box a:hover{
+  text-decoration: underline;
+}
+.form-box input{
+  border-radius: 9px;
+  box-sizing: border-box;
+  width: 95%;
+  font-size: 14px;
+  padding: 18px;
+  margin: 0px;
+  margin-top: 12px;
+  margin-left: 10px;
+ 
+  border: 1px solid #eeebeb;
+  outline: none;
+  caret-color: #166fe5 ;
+}
+.form-box input:focus{
+  box-shadow: 0px 0px 1px 1px   #166fe5;
+}
+
+.form-box button{
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 95%;
+  font-size: 19px;
+  padding: 12px;
+  margin: 0px;
+  margin-top: 18px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #166fe5;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.form-box button:hover{
+  background-color: #2280fc;
+}
+hr{
+  border: 1px solid #dadde1;
+  margin-bottom: 15px;
+  margin: 0px;
+  margin-top: 18px;
+  margin-left: 10px;
+  width: 95%;
+}
+.Create button{
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 50%;
+  font-size: 19px;
+  padding: 10px 20px;
+  margin-bottom: 22px;
+  margin-top: 22px;
+  margin-left: 100px; 
+  border: none;
+  cursor: pointer;
+  background-color: #00a400;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;   
+}
+.Create button:hover{
+  background-color: #42b72a;
+  }
+
+.fog a{
+color: #166fe5;
+font-size: 15px;
+text-decoration: none;
+display: block;
+margin-top: 22px;
+margin-bottom: 22px;
+text-align: center;
+}
+.fog a:hover{
+  text-decoration: underline;
+}
+
+

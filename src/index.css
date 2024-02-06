@@ -155,6 +155,31 @@ text-align: center;
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 768px) {
+  .box {
+    flex-direction: column !important;
+    align-items: center;
+    width: 100%;
+  }
+  .title-box{
+   display: none;
+  }
+  .form-box{
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: -47%;
+  }
+  
+}
+
+@media only screen and (max-width: 480px) {
+  .box {
+    flex-direction: column !important;
+    align-items: center;
+    width: 100%;
+  }
+}
+
 
 
 

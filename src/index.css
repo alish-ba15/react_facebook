@@ -5,21 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-body{
   padding: 0;
-  margin: 0;
   background-color: #f0f2f5;
   font-family: Arial, sans-serif;
   display: block;
    align-items: center;
   flex-wrap: wrap;
 }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 .box{
   display: flex;
   justify-content: center;
@@ -28,6 +26,7 @@ body{
   height: 100vh;
 }
 .title-box{
+  position: fixed;
   width: 500px;
   padding: 5px;
   margin-left: -40%;
@@ -49,7 +48,7 @@ body{
 .form-box{
   width: 400px; 
   height: 350px;
-  position: absolute;
+  position: fixed;
   padding: 3px;
   border: 10px;
   background: #fff ;
@@ -155,5 +154,7 @@ text-align: center;
 .fog a:hover{
   text-decoration: underline;
 }
+
+
 
 
